@@ -71,6 +71,13 @@ header {
 
 /* ******‒‒‒‒‒‒‒‒‒ MEDIA QUERIES (SMALL DEVICES) ………………………………………… * */
 @media screen and (max-width: 600px) {
+    header {
+        height: 82vh;
+    }
+    .me{
+        width: 18rem;
+        height: 30rem;
+    }
     .header__socials, .scroll__down{
         display: none;
     }
